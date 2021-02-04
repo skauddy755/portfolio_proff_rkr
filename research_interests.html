@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public/img/r.jpg" />
+    <title>Rajiv Kr Ranjan | IIT (ISM) Dhanbad</title>
+
+    <!-- Include bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+    <!-- Include Font-awesome -->
+    <script src="https://kit.fontawesome.com/d6a58b121a.js" crossorigin="anonymous"></script>
+
+    <style>
+        .dropdown-item{
+        }
+        .dropdown-item:hover{
+            background-color: #363c4d;
+            color: #ffc552;
+        }
+        li{
+            overflow-wrap: break-word;
+        }
+        .jumbotron{
+            background-color:  #363c4d;
+            color: honeydew;
+        }
+        pre{
+            color:lightsteelblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="position: fixed; top: 0px; width: 100vw; z-index: 1;">
+        <!-- Image and text -->
+
+        
+        <nav style="background-color: #363c4d" class="navbar navbar-dark">
+            <div class="container">
+                <div class="row mx-auto">
+                    <a target="_blank" href="https://www.iitism.ac.in/"><img src="public/img/ism_logo.png" width="60" height="auto" class="d-inline-block align-top" alt="" loading="lazy"></a>
+                    <a href="index.html"><img src="public/img/rkr_logo2.png" width="auto" height="60" class="d-inline-block align-top" alt="" loading="lazy"></a>
+                </div>
+            </div>
+        </nav>
+
+        <nav style="background-color: #ffc552" class="navbar navbar-expand-lg navbar-light">
+            <button style="outline: none;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Research
+                            </a>
+                            <div style="background-color: #ffb152;" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="research_publications.html">Publications</a>
+                                <a class="dropdown-item" href="research_interests.html">Research Interests</a>
+                                <a class="dropdown-item" href="research_groups.html">Research Group</a>
+                                <a class="dropdown-item" href="research_colaborations.html">Collaboration</a>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Academics
+                            </a>
+                            <div style="background-color: #ffb152;" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="academics_teaching.html">Teaching</a>
+                                <a class="dropdown-item" href="academics_short_term_courses.html">Short-term courses</a>
+                                <a class="dropdown-item" href="academics_awards.html">Awards and Recognitions</a>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Interactions
+                            </a>
+                            <div style="background-color: #ffb152;" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="interactions_talks">Invited Talks</a>
+                                <a class="dropdown-item" href="interactions_proffessional_activities">Professional Activities</a>
+                            </div>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Gallery
+                            </a>
+                            <div style="background-color: #ffb152;" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="gallery_photos">Photos</a>
+                                <a class="dropdown-item" href="gallery_videos">Videos</a>
+                            </div>
+                          </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-7">
+        <h1><br><br><br></h1>
+        <div style="display: block;" class="mt-4 ml-2 mr-2 row">
+            <div style="text-align: center;" class="jumbotron">
+                <h1 class="display-4">Research Interests</h1>
+                <br>
+                <p class="lead">
+                    Analog and Mixed VLSI Design (CMOS based analog/digital design and different types of challenges and issue of design):
+                    <ul class="lead" style="text-align: left;">
+                        <li> Analog Filter</li>
+                        <li> Oscillator</li>
+                        <li> Memristor Circuit</li>
+                        <li> Controllers</li>
+                        <li> Low Power Temprerature Sensor</li>
+                    </ul>
+                </p>
+            </div>
+
+            <h1 class="display-4">Sponsored research project and consultancy</h1><br>
+            
+            <div style="width:100%; overflow-x:auto">
+                <table class="table table-bordered table-striped">
+                    <thead style="background-color: #363c4d; color: white; text-align: center;">
+                        <tr>
+                            <td>SL No.</td>
+                            <td>Project Title</td>
+                            <td>Authority</td>
+                            <td>Funding Agency and Project No.</td>
+                            <td>Amount of grant (in INR)</td>
+                            <td>Date of Starting</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Design of new low power low voltage and high bandwidth Current Mode Building Block (CMBB) and its application in analog signal processing and signal generating circuits.</td>
+                            <td>Principal Investigator </td>
+                            <td>Minor Research Project, TEQIP-II </td>
+                            <td>2,00,000</td>
+                            <td>20-01-2017</td>
+                            <td style="background-color: #d4ffcf">Completed</td>
+                        </tr>
+                        <!-- <tr>
+                            <td>2</td>
+                            <td>Design of new low power low voltage and high bandwidth Current Mode Building Block (CMBB) and its application in analog signal processing and signal generating circuits.</td>
+                            <td>Principal Investigator </td>
+                            <td>Minor Research Project, TEQIP-II </td>
+                            <td>2,00,000</td>
+                            <td>20-01-2017</td>
+                            <td style="background-color: #ffe38f">Ongoing</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Design of new low power low voltage and high bandwidth Current Mode Building Block (CMBB) and its application in analog signal processing and signal generating circuits.</td>
+                            <td>Principal Investigator </td>
+                            <td>Minor Research Project, TEQIP-II </td>
+                            <td>2,00,000</td>
+                            <td>20-01-2017</td>
+                            <td style="background-color: #ffbfbf">Not yet Started</td>
+                        </tr> -->
+                        <tr>
+                            <td>2</td>
+                            <td>Quotation for testing of LED Street Light </td>
+                            <td>Principal Investigator</td>
+                            <td>Office of the Dy. Commissioner Dhanbad & CONS/3508/2017-2018</td>
+                            <td>17,400</td>
+                            <td>2017-2018</td>
+                            <td style="background-color: #d4ffcf">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Auto irrigation and soil monitoring system for COVID-19 migrants Engagement</td>
+                            <td>Principal Investigator</td>
+                            <td>IEEE/20202021/718/ECE</td>
+                            <td>Initial Fund: 3,00,000</td>
+                            <td>15-07-2020</td>
+                            <td style="background-color: #d4ffcf">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>FIST-2019 Project of Department of Electronics Engineering</td>
+                            <td>Member of project (VLSI implementatio n group) </td>
+                            <td>Department of Science and Technology (DST), Government of India & TPN-31665 </td>
+                            <td>1,90,00,000</td>
+                            <td>07-01-2020</td>
+                            <td style="background-color: #fff6c2">Ongoing</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Memristor Based Biosensor Design For COVID-19 <span style="color: red;">Ministry of Human Resource and Development (Shastri Institutional Collaborative Research Grant) </span></td>
+                            <td>Principal Investigator</td>
+                            <td>MHRD(SICRG)/ 20202021/740/ECE </td>
+                            <td>1,00,000</td>
+                            <td>2020-2022</td>
+                            <td style="background-color: #fff6c2">Ongoing</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Determination of 90W street light parameters.</td>
+                            <td>Principal Investigator</td>
+                            <td>Dhanbad Municipal Corporation & TEST/5014/2018-2019 </td>
+                            <td>59,322</td>
+                            <td>2018-2019</td>
+                            <td style="background-color: #fff6c2">Ongoing</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Determination of 120W street light parameters.</td>
+                            <td>Principal Investigator</td>
+                            <td>Dhanbad Municipal Corporation & TEST/5013/2018-2019 </td>
+                            <td>84,746</td>
+                            <td>2018-2019</td>
+                            <td style="background-color: #fff6c2">Ongoing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h1 class="display-4 mt-2">Outreach Programme</h1><br>
+            
+            <div style="width:100%; overflow-x:auto">
+                <table class="table table-bordered table-striped">
+                    <thead style="background-color: #363c4d; color: white; text-align: center;">
+                        <tr>
+                            <td>SL No.</td>
+                            <td>Title of Course</td>
+                            <td>Authority</td>
+                            <td>Department</td>
+                            <td>Amount of grant (in INR)</td>
+                            <td>Date of Starting</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Advanced Analog Signal processing and Generating Circuits</td>
+                            <td>Co-consultant</td>
+                            <td>Department of Electronics and Communication IIT (ISM) Dhanbad</td>
+                            <td>0.48 L</td>
+                            <td>2014</td>
+                            <td style="background-color: #d4ffcf">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Current mode Analog Circuits </td>
+                            <td>Co-consultant</td>
+                            <td>Department of Electronics and Communication IIT (ISM) Dhanbad</td>
+                            <td>0.70 L</td>
+                            <td>2013</td>
+                            <td style="background-color: #d4ffcf">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Advance Analog Circuits using Current Mode Building Blocks</td>
+                            <td>Co-consultant</td>
+                            <td>Department of Electronics and Communication IIT (ISM) Dhanbad</td>
+                            <td>1 L</td>
+                            <td>2015</td>
+                            <td style="background-color: #d4ffcf">Completed</td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            
+            
+        </div>
+        
+    </div>
+    <footer class="pt-2 pb-2" style="background-color: #363c4d;">
+        <hr color="white">
+        <p style="text-align: center; color: blanchedalmond;">
+            All rights reserved &#169; Rajeev Kumar Ranjan 2021</br>
+            Website: Indian Institute of Technology (Indian School of Mines) DHANBAD-826004
+        </p>
+    </footer>
+
+</body>
+</html>
